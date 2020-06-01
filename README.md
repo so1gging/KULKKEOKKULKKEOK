@@ -33,34 +33,34 @@ Chrome
 #### 📌코드 설명
 #### 1. Post (free · notice) & Commenct (FreeController,NoticeController,PostService,PostDao,Paging)
 
-+ freeboard.jsp(자유게시판)
++ __freeboard.jsp(자유게시판)__ :
  답글형 게시판, 자유게시판 목록 , 인기게시글 상단에 표시(일정 조회수 이상) ,페이징
  
-+ freeboard_view.jsp(글 상세폼 + 댓글) 
++ __freeboard_view.jsp(글 상세폼 + 댓글)__ :
  게시글 상세 폼 , 게시글 답변달기 및 CRUD, 댓글 리스트(AJAX) , 대댓글 CRUD(AJAX)
  
-+ freeboard_write.jsp(글 작성)
++ __freeboard_write.jsp(글 작성)__ :
  글 작성폼
 
-+ freeboard_edit.jsp(글 수정)
++ __freeboard_edit.jsp(글 수정)__ :
 글 수정폼
 
-+ freeboard_answer.jsp(답글 작성)
++ __freeboard_answer.jsp(답글 작성)__ :
 답글 작성폼
 
-+ notice.jsp(공지게시판)
++ __notice.jsp(공지게시판)__ :
 답글형 게시판, 공지게시판 목록 , 인기게시글 상단에 표시(일정 조회수 이상) ,페이징
 
-+ notice_view.jsp(공지 상세폼 + 댓글)
++ __notice_view.jsp(공지 상세폼 + 댓글)__ :
 공지 게시글 상세 폼 , 공지 게시글 답변달기 및 CRUD, 댓글 리스트(AJAX) , 대댓글 CRUD(AJAX) * 관리자만 CRUD 가능 *
 
-+ notice_write.jsp(공지 작성)
++ __notice_write.jsp(공지 작성)__ :
 공지 작성폼 (관리자만 가능)
 
-+ notice_edit.jsp(공지 수정)
++ __notice_edit.jsp(공지 수정)__ :
 공지 수정폼 (관리자만 가능)
 
-+ notice_answer.jsp(공지 작성)
++ __notice_answer.jsp(공지 작성)__ :
 공지 작성폼 (관리자만 가능)
 
 
