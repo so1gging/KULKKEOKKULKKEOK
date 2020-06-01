@@ -7,8 +7,8 @@
 
 #### 📌담당 업무
 자유·공지게시판 / 게시판 댓글·대댓글 / 마이페이지 / 관리자 페이지 / 맥주 이상형 월드컵 페이지 / 파일 업로드 / 카카도 지도 API 구현
-기존 JDBC를 myBatis framework로 변경
-코드 병합
+기존 모든 JDBC 코드 => myBatis framework로 변경
+프로젝트 코드 병합
 
 #### 사용 언어 및 IDE
 Java 8
@@ -92,14 +92,12 @@ Chrome
 맥주 정보 업로드
 
 #### 4. world cup(WorldCupController, WorldCupService, WorldCupDao, WorldCup)
-+ worldcup_start.jsp (맥주 월드컵 시작 페이지)
++ __worldcup_start.jsp (맥주 월드컵 시작 페이지)__ :
 맥주 이상형 월드컵 시작 페이지
 
-+ worldcup_play.jsp (맥주 월드컵 playing 페이지)
++ __worldcup_play.jsp (맥주 월드컵 playing 페이지)__ :
 맥주 이상형 월드컵 플레이 페이지
 
-+ worldcup_win.jsp (맥주 월드컵 end페이지
++ __worldcup_win.jsp (맥주 월드컵 end페이지__ :
 맥주 이상형 월드컵 결과 및 순위
 
-#### 5. 기타 :
-카카오 지도 API, 파일 업로드
