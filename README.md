@@ -31,7 +31,7 @@ Chrome
 ---
 
 #### 📌코드 설명
-#### 1. Post (free · notice) & Commenct (FreeController,NoticeController,PostService,PostDao,Paging)
+#### 1. Post (free · notice) & Commenct (FreeController, NoticeController, PostService, PostDao, Paging, PostDto, CommentDto)
 
 + __freeboard.jsp(자유게시판)__ :
  답글형 게시판, 자유게시판 목록 , 인기게시글 상단에 표시(일정 조회수 이상) ,페이징
@@ -64,22 +64,42 @@ Chrome
 공지 작성폼 (관리자만 가능)
 
 
-##### Mypage
-+ View
-mypage_my.jsp (내 정보 수정) / mypage_mybeer.jsp (북마크한 맥주) / mypage_mymoim.jsp (내가 연 모임)
-mypage_myreview.jsp (작성한 리뷰) / mypage_unsubscribe.jsp (회원 탈퇴)
+#### 2. Mypage (MypageController , MypageService , MypageDao)
++ __wmypage_my.jsp (내 정보 수정)__ :
+사용자 정보 수정 폼
+
++ __mypage_mybeer.jsp (북마크한 맥주)__ :
+사용자가 북마크 한 맥주 리스트
+
++ __mypage_mymoim.jsp (내가 연 모임)__ :
+사용자가 연 모임 리스트
+
++ __mypage_myreview.jsp (작성한 리뷰)__ :
+사용자가 작성한 리뷰 리스트
+
++ __mypage_unsubscribe.jsp (회원 탈퇴)__ :
+회원탈퇴
 
 
-##### Admin
-+ View
-admin_activity.jsp (사이트 내 가입 회원 리스트)
-admin_userMng.jsp (사이트 내 가입 회원 활동 관리)
-beerinfo_write.jsp (맥주 추가하기)
+#### 3. Admin (AdminController , AdminService, AdminDao)
++ __admin_activity.jsp (회원 리스트)__ :
+사이트를 가입한 모든 회원 리스트 출력
 
-### world cup
-worldcup_start.jsp (맥주 월드컵 시작 페이지)
-worldcup_play.jsp (맥주 월드컵 playing 페이지)
-worldcup_win.jsp (맥주 월드컵 end페이지)
++ __admin_userMng.jsp ( 회원 활동 관리)__ :
+회원 활동(작성한 게시글 , 작성한 댓글 , 개최한 모임, 작성한 모임 댓글) 삭제 및 열람 가능
 
-### 지도 API
-moim_wirte.jsp (모임 작성하기)
++ __beerinfo_write.jsp (맥주 추가하기)__:
+맥주 정보 업로드
+
+#### 4. world cup(WorldCupController, WorldCupService, WorldCupDao, WorldCup)
++ worldcup_start.jsp (맥주 월드컵 시작 페이지)
+맥주 이상형 월드컵 시작 페이지
+
++ worldcup_play.jsp (맥주 월드컵 playing 페이지)
+맥주 이상형 월드컵 플레이 페이지
+
++ worldcup_win.jsp (맥주 월드컵 end페이지
+맥주 이상형 월드컵 결과 및 순위
+
+#### 5. 기타 :
+카카오 지도 API, 파일 업로드
