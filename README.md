@@ -16,16 +16,16 @@ JavaScript, jQuery, JSP/Servlet
 HTML5, CSS
 Eclipse
 
-### Framework
+#### Framework
 bootstrap , myBatis
 
-### Server
+#### Server
 Apache Tomcat v9.0
 
-### DBMS
+#### DBMS
 Oracle - SQL developer(11g)
 
-### OS
+#### OS
 Chrome
 
 ---
