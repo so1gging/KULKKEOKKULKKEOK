@@ -26,7 +26,7 @@ Apache Tomcat v9.0
 Oracle - SQL developer(11g)
 
 #### OS
-Chrome
+Windows OS
 
 ---
 
